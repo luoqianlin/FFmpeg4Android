@@ -2,10 +2,10 @@
 # https://github.com/mabeijianxi
 # mabeijianxi@gmail.com
 
-NDK=/Users/jianxi/android/sdk/ndk-bundle
+NDK=/home/luo/android-ndk-r14b
 
 PLATFORM=$NDK/platforms/android-14/arch-arm
-TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64
+TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
 PREFIX=./android/arm
 
 function build_one
